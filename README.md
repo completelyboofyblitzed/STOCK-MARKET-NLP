@@ -1,5 +1,4 @@
-# NLP in STOCK MARKET
-Paper List on all kind of NLP in market forecasting, expert estimation and etc.
+### Paper List on all kind of NLP in market forecasting, expert estimation and etc.
 
 ```mermaid
 graph TD
