@@ -9,7 +9,7 @@ graph TD
     C -->|?| E([?])
     C -->|?| F([?])
     %% click A callback "Tooltip for a callback"
-    click C "https://github.com/completelyboofyblitzed/NLP-for-stocks#market-forecasting" "This is a tooltip for a link"
+    click C "https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting" "This is a tooltip for a link"
     click D "https://github.com/completelyboofyblitzed/NLP-for-stocks#sentiment-based"
     %% click B href "http://www.github.com" "This is a tooltip for a link"
 ```
