@@ -1,4 +1,8 @@
-<!-- make read me prettier: todo list https://docs.github.com/ru/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists#about-task-lists -->
+<!-- make read me prettier:  -->
+<!-- todo list https://docs.github.com/ru/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists#about-task-lists -->
+<!-- emojies https://github.com/chroline/well_app/blob/main/README.md -->
+<!-- tables https://github.com/ArmynC/ArminC-AutoExec/#readme -->
+<!-- pic https://github.com/karan/joe#readme -->
 ## Paper List on all kinds of NLP for market forecasting, experts estimation, etc.
 
 ```mermaid
@@ -21,7 +25,7 @@ graph TD
     %% click B href "https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET#sentiment-based" "This is a tooltip for a link"
     E -->|?| F[/?\]
     M -->|?| Q([?])
-    class A,B,C,E,E,M,F,Q containers;
+    %% class A,B,C,E,E,M,F,Q containers;
 ```
 
 # Market Forecasting
@@ -34,6 +38,9 @@ graph TD
 <img src="https://github.com/juanluisrto/stock-prediction-nlp/blob/master/stock-prediction/etsfactory_article/pngs/predictions_tesla.png" width="460" title="Claimed predictions Tesla based solely on newspaper text"> <br />
 _Claimed predictions for Tesla based solely on newspaper text_
 
+<!-- https://youtu.be/G5ycs1hFSKk -->
+<!-- https://github.com/pvanand07/NIFTY50-Daily-Trend-Prediction-Using-NLP-Python -->
+<!-- finbert https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/papers/FinBERT.pdf -->
 # Expert's Competence Estimation
 `To be added`
 
