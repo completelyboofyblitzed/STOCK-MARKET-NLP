@@ -2,8 +2,11 @@
 
 ```mermaid
 graph TD
-    %% A[<b>NLP</b>] -->|for| C{Market Forecasting}
+    %% styling the nodes and arrors https://dompl.medium.com/produce-great-looking-flowcharts-in-seconds-7f3bea64f2e2
+    %% mermaid editor https://mermaid.live
     A[<b>Natural Language Processing</b>] -->|for| C{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
+    J[(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#text-sources'>Text Sources</a>)]
+    H(((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#scrapping'>Scrapping</a>)))
     A -->|to| G(Estimate Expert's Competence)
     A -->|in| B((Market Movers Identification))
     C -->|based on| D([<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based'>Sentiment</a>])
@@ -23,6 +26,20 @@ graph TD
 > _Text source: newspapers_ <br />
 > _Sentiment model: BERT_ <br />
 > _Predictions model: LSTM?_ <br />
-<img src="https://github.com/juanluisrto/stock-prediction-nlp/blob/master/stock-prediction/etsfactory_article/pngs/predictions_tesla.png" width="450" title="Claimed predictions Tesla based solely on newspaper text"> <br />
+<img src="https://github.com/juanluisrto/stock-prediction-nlp/blob/master/stock-prediction/etsfactory_article/pngs/predictions_tesla.png" width="460" title="Claimed predictions Tesla based solely on newspaper text"> <br />
 _Claimed predictions for Tesla based solely on newspaper text_
+
+# Expert's Competence Estimation
+`To be added`
+
+# Market Movers Identification
+`To be added`
+
+# Text Sources
+`To be added`
+
+# Scrapping
+`To be added`
+
+
 
