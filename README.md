@@ -1,3 +1,4 @@
+<!-- inspired by https://github.com/ryanzhumich/Contrastive-Learning-NLP-Papers -->
 <!-- make read me prettier:  -->
 <!-- todo list https://docs.github.com/ru/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists#about-task-lists -->
 <!-- emojies https://github.com/chroline/well_app/blob/main/README.md -->
@@ -42,6 +43,7 @@ _Claimed predictions for Tesla based solely on newspaper text_
 <!-- https://github.com/pvanand07/NIFTY50-Daily-Trend-Prediction-Using-NLP-Python -->
 <!-- finbert https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/papers/FinBERT.pdf -->
 <!-- https://github.com/search?o=desc&q=nlp+for+stock&s=updated&type=Repositories -->
+<!-- https://github.com/yiaktan/NLP-Stock-Prediction -->
 # Expert's Competence Estimation
 `To be added`
 
