@@ -1,4 +1,4 @@
-## Paper List on all kind of NLP for market forecasting, expert estimation, etc.
+## Paper List on all kinds of NLP for market forecasting, expert estimation, etc.
 
 ```mermaid
 graph TD
