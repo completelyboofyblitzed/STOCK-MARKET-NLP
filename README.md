@@ -15,7 +15,7 @@ graph TD
     C -->|based on| D{{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based'>Sentiment</a>}}
     C -->|?| B{{?}}
     style D fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
-    click B href "https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based" "This is a tooltip for a link"
+    click B href "https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET#sentiment-based" "This is a tooltip for a link"
     E -->|?| F[/?\]
     M -->|?| Q([?])
 ```
