@@ -21,3 +21,4 @@ graph TD
 - __papers__: 
 - __repositories__: 
 > [stock-prediction-nlp](https://github.com/juanluisrto/stock-prediction-nlp) by Juan Luis Ruiz-Tagle
+- __talks__: 
