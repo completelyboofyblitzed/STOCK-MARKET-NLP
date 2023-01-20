@@ -2,11 +2,11 @@
 
 ```mermaid
 graph TD
-    %% A[Natural Language Processing] -->|for| C{Market Forecasting}
-    A[Natural Language Processing] -->|for| C{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
+    %% A[<b>NLP</b>] -->|for| C{Market Forecasting}
+    A[<b>Natural Language Processing</b>] -->|for| C{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
     A -->|to| G(Estimate Expert's Competence)
     A -->|in| B((Market Movers Identification))
-    C -->|based on| D([Sentiment])
+    C -->|based on| D([<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based'>Sentiment</a>])
     C -->|?| E([?])
     C -->|?| F([?])
     %% click A callback "Tooltip for a callback"
