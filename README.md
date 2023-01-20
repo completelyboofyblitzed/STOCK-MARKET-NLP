@@ -18,7 +18,11 @@ graph TD
 
 # Market Forecasting
 ## Sentiment Based
-- __papers__: 
-- __repositories__: 
-> [stock-prediction-nlp](https://github.com/juanluisrto/stock-prediction-nlp) by Juan Luis Ruiz-Tagle
-- __talks__: 
+- __Predicting the Stock Market with Sentiment Analysis of Newspaper Text__ <i>Juan Luis Ruiz-Tagle</i> `2020` [[thesis draft]](https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/Juan%20Luis%20Ruiz-Tagle%2018-Mayo_memoria_2/Master_Thesis_memoria_v2.pdf) [[repo]](https://github.com/juanluisrto/stock-prediction-nlp)
+
+> _Text source: newspapers_ <br />
+> _Sentiment model: BERT_ <br />
+> _Predictions model: LSTM?_ <br />
+<img src="https://github.com/juanluisrto/stock-prediction-nlp/blob/master/stock-prediction/etsfactory_article/pngs/predictions_tesla.png" width="450" title="Claimed predictions Tesla based solely on newspaper text"> <br />
+_Claimed predictions for Tesla based solely on newspaper text_
+
