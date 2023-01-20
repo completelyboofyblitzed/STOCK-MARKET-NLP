@@ -7,8 +7,8 @@ graph TD
     A[<b>Natural Language Processing</b>] -->|for| C{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
     J[(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#text-sources'>Text Sources</a>)]
     H(((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#scrapping'>Scrapping</a>)))
-    A -->|to| G(Estimate Expert's Competence)
-    A -->|in| B((Market Movers Identification))
+    A -->|to| G(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#experts-competence-estimation'>Estimate Expert's Competence</a>)
+    A -->|in| B((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-movers-identification'>Market Movers Identification</a>))
     C -->|based on| D([<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based'>Sentiment</a>])
     C -->|?| E([?])
     C -->|?| F([?])
