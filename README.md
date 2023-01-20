@@ -41,6 +41,7 @@ _Claimed predictions for Tesla based solely on newspaper text_
 <!-- https://youtu.be/G5ycs1hFSKk -->
 <!-- https://github.com/pvanand07/NIFTY50-Daily-Trend-Prediction-Using-NLP-Python -->
 <!-- finbert https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/papers/FinBERT.pdf -->
+<!-- https://github.com/search?o=desc&q=nlp+for+stock&s=updated&type=Repositories -->
 # Expert's Competence Estimation
 `To be added`
 
