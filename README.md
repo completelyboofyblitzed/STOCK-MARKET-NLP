@@ -4,19 +4,16 @@
 graph TD
     %% styling the nodes and arrors https://dompl.medium.com/produce-great-looking-flowcharts-in-seconds-7f3bea64f2e2
     %% mermaid editor https://mermaid.live
-    A[<b>Natural Language Processing</b>] -->|for| C{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
+    A(<b>Natural Language Processing</b>) -->|for| C{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
     J[(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#text-sources'>Text Sources</a>)]
     H(((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#scrapping'>Scrapping</a>)))
-    A -->|to| G(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#experts-competence-estimation'>Estimate Expert's Competence</a>)
-    A -->|in| B((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-movers-identification'>Market Movers Identification</a>))
-    C -->|based on| D([<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based'>Sentiment</a>])
-    C -->|?| E([?])
-    C -->|?| F([?])
-    %% click A callback "Tooltip for a callback"
-    
-    %% click C "https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting" "This is a tooltip for a link"
-    %% click D "https://github.com/completelyboofyblitzed/NLP-for-stocks#sentiment-based"
-    %% click B href "http://www.github.com" "This is a tooltip for a link"
+    A -->|to| E[<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#experts-competence-estimation'>Estimate Expert's Competence</a>]
+    A -->|in| M((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-movers-identification'>Market Movers Identification</a>))
+    C -->|based on| D{{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based'>Sentiment</a>}}
+    C -->|?| B{{?}}
+    E -->|?| F[/?\]
+    M -->|?| Q([?])
+    click B href "https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based" "This is a tooltip for a link"
 ```
 
 # Market Forecasting
