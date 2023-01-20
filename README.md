@@ -21,7 +21,7 @@ graph TD
     A -->|in| M((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-movers-identification'>Market Movers Identification</a>))
     C -->|based on| D{{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based' >Sentiment</a>}}
     C -->|?| B{{?}}
-    style D stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5,text-decoration: none
+    style D fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5,text-decoration: none
     %% click B href "https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET#sentiment-based" "This is a tooltip for a link"
     E -->|?| F[/?\]
     M -->|?| Q([?])
