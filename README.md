@@ -44,14 +44,12 @@ graph TD
 %%{init: {"theme": "default","fontFamily": "cursive", "sequence": { "securityLevel":"loose" }}}%%
 graph TD
     classDef containers fill:#E6E1F7
-    %% Nw(((Websites)))
-    %% Tw(((Tweets)))
     Sc(((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#scrapping'>Scrapping</a>)))
     Ts[(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#text-sources'>Text Sources</a>)]
-    subgraph Ws [Websites]
-        subgraph Tw [Twitter]
-            subgraph Fb [Facebook]
-                subgraph Tg [Telegram]
+    subgraph Ws [<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#websites'>Websites</a>]
+        subgraph Tw [<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#websites'>Twitter</a>]
+            subgraph Fb [<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#websites'>Facebook</a>]
+                subgraph Tg [<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#websites'>Telegram</a>]
                 Cm[(Plain mentions/tags)]
                 Ex[("''Experts''")]
                 In[(Highly influential<br> individuals)]
@@ -87,6 +85,7 @@ _Claimed predictions for Tesla based solely on newspaper text_
 <!-- https://github.com/yiaktan/NLP-Stock-Prediction -->
 ### Sentiment Analysis
 #### Models
+[__Hugging Face Hub #financial-sentiment-analysis__](https://huggingface.co/models?other=financial-sentiment-analysis)
 - __FinBert: A Large Language Model for Extracting Information from Financial Text__ `2019-2022` <i> Allen H. Huanga, Hui Wang, Yi Yang</i> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3910214) [[repo]](https://github.com/yya518/FinBERT)
 
 <!-- - __Fine-tuned LM__ -->
@@ -104,6 +103,10 @@ _Claimed predictions for Tesla based solely on newspaper text_
 
 # Scrapping
 `To be added`
+## Websites
+## Twitter
+## Facebook
+## Telegram
 
 
 
