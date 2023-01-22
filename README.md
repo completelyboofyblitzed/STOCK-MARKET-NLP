@@ -1,5 +1,5 @@
 <!-- inspired by https://github.com/ryanzhumich/Contrastive-Learning-NLP-Papers -->
-<!-- make read me prettier:  -->
+<!-- make read.me prettier:  -->
 <!-- todo list https://docs.github.com/ru/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists#about-task-lists -->
 <!-- emojies https://github.com/chroline/well_app/blob/main/README.md -->
 <!-- tables https://github.com/ArmynC/ArminC-AutoExec/#readme -->
@@ -75,6 +75,7 @@ graph TD
 ```
 # Models
 - __FinBert: A Large Language Model for Extracting Information from Financial Text__ `2019-2022` <i> Allen H. Huanga, Hui Wang, Yi Yang</i> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3910214) [[repo]](https://github.com/yya518/FinBERT) [[website]](https://finbert.ai/)
+- __FinancialBERT - A Pretrained Language Model for Financial Text Mining__ `2022` <i>Ahmed Rachid Hazourli</i> [[pdf]](https://www.researchgate.net/publication/358284785_FinancialBERT_-_A_Pretrained_Language_Model_for_Financial_Text_Mining) [[demo]](https://huggingface.co/ahmedrachid/FinancialBERT)
 # 1. Market Forecasting
 Projection of the market states (high/low volatility, up/down index movements).
 ## Sentiment Based
