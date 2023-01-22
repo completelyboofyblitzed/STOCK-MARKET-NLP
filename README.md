@@ -54,7 +54,7 @@ graph TD
                 subgraph Tg [Telegram]
                 Of[(Official Media)]
                 Cm[(Plain mentions/tags)]
-                Ex[("''Experts'''")]
+                Ex[("''Experts''")]
                 In[(Highly influential<br> individuals)]
 
                 end
