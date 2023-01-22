@@ -13,6 +13,7 @@ graph TD
     
     %% styling the nodes and arrors https://dompl.medium.com/produce-great-looking-flowcharts-in-seconds-7f3bea64f2e2
     %% mermaid editor https://mermaid.live
+    %% mermaid documentation https://mermaid.js.org/config/usage.html
     
     A(<b>NLP</b>) -->|for| C{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
     style A stroke:#333,stroke-width:4px
