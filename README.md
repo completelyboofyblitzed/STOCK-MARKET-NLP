@@ -9,7 +9,13 @@
 ```mermaid
 %%{init: {"theme": "default","fontFamily": "cursive", "sequence": { "securityLevel":"loose" }}}%%
 graph TD
-    classDef containers fill:#E6E1F7
+    title[<u>Table of Contents:</u>]
+    title---F
+    style title fill:#FFF,stroke:#FFF
+    linkStyle 0 stroke:#FFF,stroke-width:0;
+
+    %%FirstStep-->...
+    %%classDef containers fill:#E6E1F7
     
     %% styling the nodes and arrors https://dompl.medium.com/produce-great-looking-flowcharts-in-seconds-7f3bea64f2e2
     %% mermaid editor https://mermaid.live
@@ -69,7 +75,7 @@ graph TD
 ```
 # Models
 - __FinBert: A Large Language Model for Extracting Information from Financial Text__ `2019-2022` <i> Allen H. Huanga, Hui Wang, Yi Yang</i> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3910214) [[repo]](https://github.com/yya518/FinBERT) [[website]](https://finbert.ai/)
-# Market Forecasting
+# 1. Market Forecasting
 Projection of the market states (high/low volatility, up/down index movements).
 ## Sentiment Based
 - __Predicting the Stock Market with Sentiment Analysis of Newspaper Text__ <i>Juan Luis Ruiz-Tagle</i> `2020` [[thesis draft]](https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/Juan%20Luis%20Ruiz-Tagle%2018-Mayo_memoria_2/Master_Thesis_memoria_v2.pdf) [[repo]](https://github.com/juanluisrto/stock-prediction-nlp)
@@ -94,10 +100,10 @@ __Models__ <br>
 ### Forecasting
 
 #### Algorithms
-# Expert's Competence Estimation
-Qualification of experts, ranking of experts based on their past predictions/performance.<br>
+# 2. Expert's Competence Estimation
+Ranking experts, qualification of experts, based on their past predictions/performance.<br>
 
-# Market Movers Identification
+# 3. Market Movers Identification
 Market moving information is a term used in stock market investing, defined as __information that would cause any reasonable investor to make a buy or sell decision__. ([Wikipedia](https://en.wikipedia.org/wiki/Market_moving_information))<br> 
 
 # Text Sources
