@@ -74,8 +74,9 @@ graph TD
     Sc-.-Tg
 ```
 # Models
-- __FinBert: A Large Language Model for Extracting Information from Financial Text__ `2019-2022` <i> Allen H. Huanga, Hui Wang, Yi Yang</i> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3910214) [[repo]](https://github.com/yya518/FinBERT) [[website]](https://finbert.ai/)
 - __FinancialBERT - A Pretrained Language Model for Financial Text Mining__ `2022` <i>Ahmed Rachid Hazourli</i> [[pdf]](https://www.researchgate.net/publication/358284785_FinancialBERT_-_A_Pretrained_Language_Model_for_Financial_Text_Mining) [[demo]](https://huggingface.co/ahmedrachid/FinancialBERT)
+- __FinBert - A Large Language Model for Extracting Information from Financial Text__ `2019-2022` <i> Allen H. Huanga, Hui Wang, Yi Yang</i> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3910214) [[repo]](https://github.com/yya518/FinBERT) [[website]](https://finbert.ai/) [[demo]](https://huggingface.co/ProsusAI/finbert)
+- __NFinBERT: A Number-Aware Language Model for Financial Disclosures__ `2021` <i>Hao-Lun Lin and Jr-Shian Wu, Yu-Shiang Huang, Ming-Feng Tsai, Chuan-Ju Wang</i> [[pdf]](https://ceur-ws.org/Vol-2957/paper5.pdf)
 # 1. Market Forecasting
 Projection of the market states (high/low volatility, up/down index movements).
 ## Sentiment Based
@@ -101,6 +102,7 @@ __Models__ <br>
 ### Forecasting
 
 #### Algorithms
+`To be added`
 # 2. Expert's Competence Estimation
 Ranking experts, qualification of experts, based on their past predictions/performance.<br>
 
