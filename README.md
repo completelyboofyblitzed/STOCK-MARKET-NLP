@@ -13,7 +13,7 @@ graph TD
     
     %% styling the nodes and arrors https://dompl.medium.com/produce-great-looking-flowcharts-in-seconds-7f3bea64f2e2
     %% mermaid editor https://mermaid.live
-    
+    Mo[[<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#models'>Models</a>]]
     A(<b>NLP</b>) -->|for| F{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
     
     style A stroke:#333,stroke-width:4px
@@ -25,9 +25,9 @@ graph TD
 
     
     Ts[(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#text-sources'>Text Sources</a>)]
-    Mo[[<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#models'>Models</a>]]
-    Se<-.-Mo
-    Fc<-.-Al[[<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#algorithms'>Algorithms</a>]]
+    
+    %% Se<-.-Mo
+    %% Fc<-.-Al[[<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#algorithms'>Algorithms</a>]]
     F--> Di{{Direct}}
 
     Sc(((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#scrapping'>Scrapping</a>)))
@@ -67,7 +67,8 @@ graph TD
     Sc-.-Ws
     Sc-.-Tg
 ```
-
+# Models
+- __FinBert: A Large Language Model for Extracting Information from Financial Text__ `2019-2022` <i> Allen H. Huanga, Hui Wang, Yi Yang</i> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3910214) [[repo]](https://github.com/yya518/FinBERT)
 # Market Forecasting
 ## Sentiment Based
 - __Predicting the Stock Market with Sentiment Analysis of Newspaper Text__ <i>Juan Luis Ruiz-Tagle</i> `2020` [[thesis draft]](https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/Juan%20Luis%20Ruiz-Tagle%2018-Mayo_memoria_2/Master_Thesis_memoria_v2.pdf) [[repo]](https://github.com/juanluisrto/stock-prediction-nlp)
@@ -84,14 +85,13 @@ _Claimed predictions for Tesla based solely on newspaper text_
 <!-- https://github.com/search?o=desc&q=nlp+for+stock&s=updated&type=Repositories -->
 <!-- https://github.com/yiaktan/NLP-Stock-Prediction -->
 ### Sentiment Analysis
-#### Models
+__Models__ <br>
 [__Hugging Face Hub #financial-sentiment-analysis__](https://huggingface.co/models?other=financial-sentiment-analysis)
-- __FinBert: A Large Language Model for Extracting Information from Financial Text__ `2019-2022` <i> Allen H. Huanga, Hui Wang, Yi Yang</i> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3910214) [[repo]](https://github.com/yya518/FinBERT)
+
 
 <!-- - __Fine-tuned LM__ -->
 ### Forecasting
 #### Algorithms
-
 # Expert's Competence Estimation
 `To be added`
 
