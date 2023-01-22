@@ -70,6 +70,7 @@ graph TD
 # Models
 - __FinBert: A Large Language Model for Extracting Information from Financial Text__ `2019-2022` <i> Allen H. Huanga, Hui Wang, Yi Yang</i> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3910214) [[repo]](https://github.com/yya518/FinBERT)
 # Market Forecasting
+Projection of the market states (high/low volatility, up/down index movements).
 ## Sentiment Based
 - __Predicting the Stock Market with Sentiment Analysis of Newspaper Text__ <i>Juan Luis Ruiz-Tagle</i> `2020` [[thesis draft]](https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/Juan%20Luis%20Ruiz-Tagle%2018-Mayo_memoria_2/Master_Thesis_memoria_v2.pdf) [[repo]](https://github.com/juanluisrto/stock-prediction-nlp)
 
@@ -91,22 +92,27 @@ __Models__ <br>
 
 <!-- - __Fine-tuned LM__ -->
 ### Forecasting
+
 #### Algorithms
 # Expert's Competence Estimation
-`To be added`
+Qualification of experts, ranking of experts based on their past predictions/performance.<br>
 
 # Market Movers Identification
-`To be added`
+Market moving information is a term used in stock market investing, defined as __information that would cause any reasonable investor to make a buy or sell decision__. ([Wikipedia](https://en.wikipedia.org/wiki/Market_moving_information))<br> 
 
 # Text Sources
 `To be added`
 
 # Scrapping
-`To be added`
+
 ## Websites
+`To be added`
 ## Twitter
+`To be added`
 ## Facebook
+`To be added`
 ## Telegram
+`To be added`
 
 
 
