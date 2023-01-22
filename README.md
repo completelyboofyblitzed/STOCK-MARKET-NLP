@@ -4,7 +4,7 @@
 <!-- emojies https://github.com/chroline/well_app/blob/main/README.md -->
 <!-- tables https://github.com/ArmynC/ArminC-AutoExec/#readme -->
 <!-- pic https://github.com/karan/joe#readme -->
-## Paper List on all kinds of NLP for market forecasting, experts estimation, etc.
+## Research on all kinds of NLP for market forecasting, experts estimation, etc.
 
 ```mermaid
 %%{init: {"theme": "default","fontFamily": "cursive", "sequence": { "securityLevel":"loose" }}}%%
