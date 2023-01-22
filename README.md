@@ -13,21 +13,62 @@ graph TD
     
     %% styling the nodes and arrors https://dompl.medium.com/produce-great-looking-flowcharts-in-seconds-7f3bea64f2e2
     %% mermaid editor https://mermaid.live
-    %% mermaid documentation https://mermaid.js.org/config/usage.html
     
-    A(<b>NLP</b>) -->|for| C{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
+    A(<b>NLP</b>) -->|for| F{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-forecasting'>Market Forecasting</a>} 
+    
     style A stroke:#333,stroke-width:4px
-    J[(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#text-sources'>Text Sources</a>)]
-    S(((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#scrapping'>Scrapping</a>)))
+    subgraph MF [<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based' >Sentiment based</a>]
+    Se{{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-analysis'>Sentiment<br>Analysis</a>}}
+    Fc{{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#forecasting'>Forecasting</a>}}
+    %% Al{{?}}
+    end
+
+    
+    Ts[(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#text-sources'>Text Sources</a>)]
+    Mo[[<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#models'>Models</a>]]
+    Se<-.-Mo
+    Fc<-.-Al[[<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#algorithms'>Algorithms</a>]]
+    F-->|direct| Di{{Direct}}
+
+    Sc(((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#scrapping'>Scrapping</a>)))
     A -->|to estimate| E[<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#experts-competence-estimation'>Expert's Competence</a>]
     A -->|to identify| M((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#market-movers-identification'>Market Movers</a>))
-    C -->|based on| D{{<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#sentiment-based' >Sentiment</a>}}
-    C -->|?| B{{?}}
-    style D stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5,text-decoration: none
-    %% click B href "https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET#sentiment-based" "This is a tooltip for a link"
-    E -->|?| F[/?\]
+    F -->|"  "| MF{{?}}
+    style Se stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5,text-decoration: none
+    E -->|?| V[/?\]
     M -->|?| Q([?])
-    %% class A,B,C,E,E,M,F,Q containers;
+    %% class A,B,F,E,E,M,F,Q containers;
+```
+
+```mermaid
+%%{init: {"theme": "default","fontFamily": "cursive", "sequence": { "securityLevel":"loose" }}}%%
+graph TD
+    classDef containers fill:#E6E1F7
+    %% Nw(((Websites)))
+    %% Tw(((Tweets)))
+    Sc(((<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#scrapping'>Scrapping</a>)))
+    Ts[(<a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#text-sources'>Text Sources</a>)]
+    subgraph Ws [Websites]
+        subgraph Tw [Twitter]
+            subgraph Fb [Facebook]
+                subgraph Tg [Telegram]
+                Of[(Official Media)]
+                Cm[(Plain mentions/tags)]
+                Ex[("''Experts'''")]
+                In[(Highly influential<br> individuals)]
+
+                end
+            end
+        end
+    end
+    Ts-->Cm
+    Ts-->Ex
+    Ts-->In
+    Ts-->Of
+    Sc-.-Fb
+    Sc-.-Tw
+    Sc-.-Ws
+    Sc-.-Tg
 ```
 
 # Market Forecasting
@@ -45,6 +86,9 @@ _Claimed predictions for Tesla based solely on newspaper text_
 <!-- finbert https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/papers/FinBERT.pdf -->
 <!-- https://github.com/search?o=desc&q=nlp+for+stock&s=updated&type=Repositories -->
 <!-- https://github.com/yiaktan/NLP-Stock-Prediction -->
+### Sentiment Analysis
+### Forecasting
+
 # Expert's Competence Estimation
 `To be added`
 
