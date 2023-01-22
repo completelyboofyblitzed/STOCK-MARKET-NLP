@@ -74,9 +74,9 @@ graph TD
 ## Sentiment Based
 - __Predicting the Stock Market with Sentiment Analysis of Newspaper Text__ <i>Juan Luis Ruiz-Tagle</i> `2020` [[thesis draft]](https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/Juan%20Luis%20Ruiz-Tagle%2018-Mayo_memoria_2/Master_Thesis_memoria_v2.pdf) [[repo]](https://github.com/juanluisrto/stock-prediction-nlp)
 
-> _Text source: newspapers_ <br />
-> _Sentiment model: BERT_ <br />
-> _Predictions model: LSTM?_ <br />
+> __Text source:__ newspapers <br />
+> __Sentiment model:__ BERT <br />
+> __Predictions model:__ LSTM? <br />
 <img src="https://github.com/juanluisrto/stock-prediction-nlp/blob/master/stock-prediction/etsfactory_article/pngs/predictions_tesla.png" width="460" title="Claimed predictions Tesla based solely on newspaper text"> <br />
 _Claimed predictions for Tesla based solely on newspaper text_
 
@@ -86,7 +86,12 @@ _Claimed predictions for Tesla based solely on newspaper text_
 <!-- https://github.com/search?o=desc&q=nlp+for+stock&s=updated&type=Repositories -->
 <!-- https://github.com/yiaktan/NLP-Stock-Prediction -->
 ### Sentiment Analysis
+#### Models
+- __FinBert: A Large Language Model for Extracting Information from Financial Text__ `2019-2022` <i> Allen H. Huanga, Hui Wang, Yi Yang</i> [[pdf]](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3910214) [[repo]](https://github.com/yya518/FinBERT)
+
+<!-- - __Fine-tuned LM__ -->
 ### Forecasting
+#### Algorithms
 
 # Expert's Competence Estimation
 `To be added`
