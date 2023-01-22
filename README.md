@@ -52,11 +52,10 @@ graph TD
         subgraph Tw [Twitter]
             subgraph Fb [Facebook]
                 subgraph Tg [Telegram]
-                Of[(Official Media)]
                 Cm[(Plain mentions/tags)]
                 Ex[("''Experts''")]
                 In[(Highly influential<br> individuals)]
-
+                Of[(Official Media)]
                 end
             end
         end
