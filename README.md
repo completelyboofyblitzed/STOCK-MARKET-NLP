@@ -79,6 +79,7 @@ graph TD
 - __NFinBERT: A Number-Aware Language Model for Financial Disclosures__ `2021` <i>Hao-Lun Lin and Jr-Shian Wu, Yu-Shiang Huang, Ming-Feng Tsai, Chuan-Ju Wang</i> [[pdf]](https://ceur-ws.org/Vol-2957/paper5.pdf)
 # 1. Market Forecasting
 Projection of the market states (high/low volatility, up/down index movements).
+<!-- Survey https://www.mdpi.com/2078-2489/13/10/466 -->
 ## Sentiment Based
 - __Predicting the Stock Market with Sentiment Analysis of Newspaper Text__ <i>Juan Luis Ruiz-Tagle</i> `2020` [[master thesis (draft)]](https://github.com/juanluisrto/stock-prediction-nlp/blob/master/memoria/Juan%20Luis%20Ruiz-Tagle%2018-Mayo_memoria_2/Master_Thesis_memoria_v2.pdf) [[repo]](https://github.com/juanluisrto/stock-prediction-nlp)
 
