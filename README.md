@@ -43,6 +43,11 @@ graph TD
     style Se stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5,text-decoration: none
     E -->|?| V[/?\]
     M -->|?| Q([?])
+    I><a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#interpretability'>Interpretability</a>]
+    V<-.-I
+    Q<-.-I
+    Di<-.-I
+    MF<-.-I
     %% class A,B,F,E,E,M,F,Q containers;
 ```
 
@@ -110,6 +115,11 @@ Ranking experts, qualification of experts, based on their past predictions/perfo
 # 3. Market Movers Identification
 Market moving information is a term used in stock market investing, defined as __information that would cause any reasonable investor to make a buy or sell decision__. ([Wikipedia](https://en.wikipedia.org/wiki/Market_moving_information))<br> 
 
+# Interpretability
+Essentially we want an answer to the question "what..", but can we as well know "why"?<br>
+Is this problem related to long-form question-answering (LFQA)? If so, here's something to read:<br>
+- __WebGPT: Browser-assisted question-answering with human feedback__ `2021` <i>OpenAI</i> [[blog]](https://openai.com/blog/webgpt) [[pdf]](https://arxiv.org/abs/2112.09332) [[demo]](https://openaipublic.blob.core.windows.net/webgpt-answer-viewer/index.html) + the [explanation](https://habr.com/ru/company/ods/blog/709222/) on habr (by [@stalkermustang](https://github.com/stalkermustang) I presume)
+<!-- explanation on habr by @seeall https://habr.com/ru/company/ods/blog/709222/ -->
 # Text Sources
 `To be added`
 
