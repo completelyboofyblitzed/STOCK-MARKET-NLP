@@ -43,10 +43,10 @@ graph TD
     style Se stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5,text-decoration: none
     E -->|?| V[/?\]
     M -->|?| Q([?])
-    I><a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#interpretability'>Interpretability</a>]
-    V<-.-I
-    Q<-.-I
-    Di<-.-I
+    I><a href='https://github.com/completelyboofyblitzed/NLP-in-STOCK-MARKET/blob/main/README.md#interpretability'>Interpretability?</a>]
+    %%V<-.-I
+    %%Q<-.-I
+    %%Di<-.-I
     MF<-.-I
     %% class A,B,F,E,E,M,F,Q containers;
 ```
