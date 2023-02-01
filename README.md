@@ -118,8 +118,8 @@ Market moving information is a term used in stock market investing, defined as _
 # Interpretability
 Essentially we want an answer to the question "what..", but can we as well know "why"?<br>
 Is this problem related to long-form question-answering (LFQA)? I don't know. If so, here's something to read:<br>
-- __WebGPT: Browser-assisted question-answering with human feedback__ `2021` <i>OpenAI</i> [[blog]](https://openai.com/blog/webgpt) [[pdf]](https://arxiv.org/abs/2112.09332) [[demo]](https://openaipublic.blob.core.windows.net/webgpt-answer-viewer/index.html) + the [explanation](https://habr.com/ru/company/ods/blog/709222/) on habr (by [@stalkermustang](https://github.com/stalkermustang) I presume)
-<!-- explanation on habr by @seeall https://habr.com/ru/company/ods/blog/709222/ -->
+- __WebGPT: Browser-assisted question-answering with human feedback__ `2021` <i>OpenAI</i> [[blog]](https://openai.com/blog/webgpt) [[pdf]](https://arxiv.org/abs/2112.09332) [[demo]](https://openaipublic.blob.core.windows.net/webgpt-answer-viewer/index.html) + the [explanation](https://habr.com/ru/company/ods/blog/709222/) on habr (by [@stalkermustang](https://github.com/stalkermustang) I presume) <br>
+- __GopherCite: Teaching language models to support answers with verified quotes__ `2022` <i>DeepMind</i> [[blog]](https://www.deepmind.com/blog/gophercite-teaching-language-models-to-support-answers-with-verified-quotes) [[pdf]](https://storage.googleapis.com/deepmind-media/Teaching%20language%20models%20to%20support%20answers%20with%20verified%20quotes/Teaching%20language%20models%20to%20support%20answers%20with%20verified%20quotes.pdf)
 # Text Sources
 `To be added`
 
