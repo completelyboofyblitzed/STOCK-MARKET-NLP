@@ -102,7 +102,6 @@ stateDiagram
     classDef Important stroke:#f66,stroke-width:2px,stroke-dasharray: 5 5,text-decoration: none
     direction LR
     A: Get top N gainers/losers
-    a: Map Tickers to Company names
     b: Get latest tweets/news
     c: Summarize as an explanation
     B: ~
@@ -112,7 +111,6 @@ stateDiagram
     B --> C
     state B {
       direction LR
-      a --> b
       b --> c
     }
     C --> [*]
@@ -122,6 +120,10 @@ stateDiagram
 # 3. Expert's Competence Estimation
 Ranking experts, qualification of experts, based on their past predictions/performance.<br>
 
+# Tools
+__Pythonic ways to download market data from__ [Yahoo!Ⓡ finance](https://finance.yahoo.com/):<br>
+[yfinance](https://pypi.org/project/yfinance/)<br>
+[yahooquery](https://pypi.org/project/yahooquery/2.2.5/)<br>
 
 # Text Sources
 ```mermaid
@@ -162,6 +164,10 @@ graph TD
 `To be added`
 ## Telegram
 `To be added`
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome.
 
 
 
