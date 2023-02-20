@@ -92,7 +92,7 @@ Can the task of prediction can be solved as collateral to the Market Movers iden
 # 2. Market Movers Identification
 Market moving information is a term used in stock market investing, defined as __information that would cause any reasonable investor to make a buy or sell decision__. ([Wikipedia](https://en.wikipedia.org/wiki/Market_moving_information))<br> 
 
-Example taken from [Benzinga](https://www.benzinga.com/apis/cloud-product/bz-why-is-it-moving/): <br>
+Example of a stock mover identification taken from [Benzinga](https://www.benzinga.com/apis/cloud-product/bz-why-is-it-moving/): <br>
 <img src="https://www.benzinga.com/apis/wp-content/uploads/2019/10/2-1.jpg" width="600"> <br>
 
 __How can such pipeline look:__
